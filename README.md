@@ -56,7 +56,7 @@ https://colab.research.google.com/
 
 ### 5. PREDICTIONS
 
-## 5.1 LOADING LIBRARIES & CONNECTING TO DB
+#### 5.1 LOADING LIBRARIES & CONNECTING TO DB
 ```
 # Import libraries
 import os
