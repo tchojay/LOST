@@ -24,10 +24,10 @@ This repo contain codes for calculating Length of Stay in Intensive Care Unit (I
 The datasets are hosted on Google Cloud, which requires a Gmail account to manage permissions.
 
 Create a Gmail account, if you don't already have one. It will be used to manage your access to the resources.
-Give your gmail address to the session hosts.
+Give your gmail address to the session hosts. You need to be approved by the administrator to have access to the data. 
 
 ### 3. DOCUMENTATION
-eICU Collaborative Research Database: https://eicu-crd.mit.edu/. You need to be approved by the administrator to have access to the data. 
+eICU Collaborative Research Database: https://eicu-crd.mit.edu/ 
 
 ### 4. Databases on BigQuery
 BigQuery is a database system that makes it easy to explore data with Structured Query Language ("SQL"). There are several datasets on BigQuery available for you to explore, including eicu_crd (the eICU Collaborative Research Database) and mimiciii_clinical (the MIMIC-III Clinical Database).
