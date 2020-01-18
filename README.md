@@ -1,6 +1,5 @@
 
 # Hackaotearoa Length of stay Team (LOST) 
-http://hackaotearoa.co.nz/
 
 This repo contain codes for calculating Length of Stay in Intensive Care Unit (ICU). This repo is created as a part of HACKATHON event of the http://hackaotearoa.co.nz/
 
