@@ -81,5 +81,17 @@ from google.cloud import bigquery
 
 ```
 
+```
+# authenticate
+auth.authenticate_user()
+```
+```
+# Set up environment variables
+project_id='aarhus-critical-2019-team'
+os.environ["GOOGLE_CLOUD_PROJECT"]=project_id
+
+```
+
+
 
 
