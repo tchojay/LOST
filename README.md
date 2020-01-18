@@ -54,8 +54,32 @@ Python is an increasingly popular programming language for analysing data. We wi
 https://colab.research.google.com/
 
 
-### 5. LOADING LIBRARIES
+### 5. PREDICTIONS
 
+## 5.1 LOADING LIBRARIES & CONNECTING TO DB
+```
+# Import libraries
+import os
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# model building
+from sklearn import ensemble, impute, metrics, preprocessing, tree
+from sklearn.model_selection import cross_val_score, train_test_split
+from sklearn.pipeline import Pipeline
+
+# Make pandas dataframes prettier
+from IPython.display import display, HTML, Image
+plt.rcParams.update({'font.size': 20})
+%matplotlib inline
+plt.style.use('ggplot')
+
+# Access data using Google BigQuery.
+from google.colab import auth
+from google.cloud import bigquery
+
+```
 
 
 
